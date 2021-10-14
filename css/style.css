@@ -1,0 +1,105 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+a, label{
+    font-size: .8rem;
+}
+a:hover{
+color: #6495ED
+}
+/* container login */
+#login-container{
+    text-align: center;
+    margin-top: 10vh;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+padding: 20px 30px;
+border-radius: 10px;
+}
+/* form */
+form{
+margin-top: 30px;
+margin-bottom: 40px;
+
+
+
+
+
+}
+label, input {
+display: block;
+width: 100%;
+text-align: left;
+
+}
+label{
+font-weight: bold;
+}
+input{
+    margin-bottom: 20px;
+border-bottom: 2px solid#323232;
+padding: 10px;
+font-size: 1rem;
+}
+input:focus{
+border-bottom: 2px solid #6495ED ;
+}
+#forgot-pass{
+text-align: right;
+display: block;
+}
+input[type='submit'] {
+text-align: center;
+border-radius: 20px;
+margin-top: 30px;
+color: #fff;
+background-color:#6495ED ;
+cursor:pointer;  
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+height: 40px;
+}
+input[type='submit']:hover{
+background-color: #191970;
+transition: 0.5s;
+}
+/* socia midia */
+
+#social-container, #social-container p{
+margin-bottom: 20px;
+}
+#social-container i{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+line-height: 40px;
+color: white;
+margin:0 5px;
+cursor: pointer;
+}
+.fa-facebook-f {
+    background-color: #3b5998;
+}
+.fa-linkedin{
+    background-color: #0077b5;
+}
+/*register*/
+#register-container p{
+    margin-bottom: 10px;
+}
